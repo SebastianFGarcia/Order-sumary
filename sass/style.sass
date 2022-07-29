@@ -1,0 +1,105 @@
+$Pale-blue: hsl(225, 100%, 94%)
+$Bright-blue: hsl(245, 75%, 52%)
+$Very-pale-blue: hsl(225, 100%, 98%)
+$Desaturated-blue: hsl(224, 23%, 55%)
+$Dark-blue: hsl(223, 47%, 23%)
+$Withe: #fff
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap')
+
+
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    font-size: 16px
+    font-family: 'Red Hat Display', sans-serif
+    background: $Pale-blue
+    background-image: url("/images/pattern-background-mobile.svg")
+    background-repeat: no-repeat
+    background-size: 100% 40%
+    
+    
+.container
+    width: 335px
+    overflow: hidden
+    margin: 60px auto 
+    background-color: $Withe
+    border-radius: 20px
+
+picture
+    img
+        width: 100%
+
+.order-container
+    padding: 40px 30px 20px
+    text-align: center
+
+    .title
+        font-weight: 900
+        padding-bottom: 10px
+        font-size: 1.5em
+
+    .description
+        padding: 20px 0 20px
+        color: $Desaturated-blue
+
+    .plan 
+        background-color: $Very-pale-blue
+        border-radius: 15px
+        display: flex
+        align-items: center
+        gap: 10px
+        padding: 20px 20px
+        margin: 10px 0
+
+        .plan-description
+            .plan-name
+                font-weight: 900
+            .plan-price
+                color: $Desaturated-blue
+        .plan-change
+            flex-grow: 1
+            font-weight: 700
+            text-align: right
+
+    .payment
+        width: 100%
+        padding: 15px
+        margin: 10px 0
+        border-radius: 10px
+        border: none
+        background-color: $Bright-blue
+        font-size: 1.1em
+        font-weight: 700
+        color: $Withe
+        cursor: pointer
+        box-shadow: 0px 20px 30px $Pale-blue
+    
+    .payment:hover
+        background-color: $Desaturated-blue
+
+    .cancel
+        width: 100%
+        padding: 15px
+        margin: 10px 0    
+        font-weight: 900
+        color: $Desaturated-blue
+        border: none
+        background-color: inherit  
+        cursor: pointer 
+
+.attribution
+    font-size: 11px
+    text-align: center
+    a 
+        color: hsl(228, 45%, 44%)
+
+@media (min-width:1044px) 
+    body
+        background-image: url("/images/pattern-background-desktop.svg")
+    .container
+        width: 420px 
