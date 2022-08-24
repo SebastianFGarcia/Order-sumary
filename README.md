@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/challenges/order-summary-component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-solution-PDJ2NITwZO)
-- Live Site URL: [https://sebastianfgarcia.github.io/social-proof-frontend-mentor/](https://sebastianfgarcia.github.io/social-proof-frontend-mentor/)
+- Live Site URL: [https://sebastianfgarcia.github.io/Order-sumary-frontend-mentor/](https://sebastianfgarcia.github.io/Order-sumary-frontend-mentor/)
 
 ## My process
 
